@@ -25,14 +25,14 @@ export default function Sidebar({ open }: { open: boolean }) {
   const menus = [
     { name: "Tablero", icon: BsFillGrid1X2Fill, path: "/tablero" },
     { name: "Transferir", icon: BiTransfer, path: "/transferencia" },
-    { name: "Pagar", icon: FaRegMoneyBill1, path: "/pagar" },
+    { name: "Pagar", icon: FaRegMoneyBill1, path: "/notfound" },
     { name: "Mis transacciones", icon: FaUserCheck, path: "/transacciones" },
-    { name: "Gestionar", icon: GrRefresh, path: "/gestionar" },
-    { name: "Cheques", icon: FaMoneyCheck, path: "/cheques" },
-    { name: "Paganet", icon: PiContactlessPaymentFill, path: "/paganet" },
-    { name: "Administrar", icon: MdAdminPanelSettings, path: "/administrar" },
-    { name: "Ahorro automatico", icon: MdSavings, path: "/ahorro-automatico" },
-    { name: "Configuracion", icon: FaGear, path: "/configuracion" },
+    { name: "Gestionar", icon: GrRefresh, path: "/notfound" },
+    { name: "Cheques", icon: FaMoneyCheck, path: "/notfound" },
+    { name: "Paganet", icon: PiContactlessPaymentFill, path: "/notfound" },
+    { name: "Administrar", icon: MdAdminPanelSettings, path: "/notfound" },
+    { name: "Ahorro automatico", icon: MdSavings, path: "/notfound" },
+    { name: "Configuracion", icon: FaGear, path: "/notfound" },
   ];
 
   //Tipos de tasa de cambio
